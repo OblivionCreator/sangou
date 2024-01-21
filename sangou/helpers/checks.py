@@ -50,3 +50,7 @@ async def ismod(ctx):
     return await commands.has_role(
         get_config(ctx.guild.id, "staff", "modrole")
     ).predicate(ctx)
+
+async def isoverride(ctx):
+    abc = get_config(ctx.guild.id, "permission_overrides", ctx.command)
+    pass

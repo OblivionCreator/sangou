@@ -6,7 +6,7 @@ import datetime
 import asyncio
 import typing
 import random
-from helpers.checks import ismod, isadmin, ismanager
+from helpers.checks import ismod, isadmin, ismanager, isoverride
 from helpers.datafiles import add_userlog
 from helpers.placeholders import random_msg
 from helpers.sv_config import get_config
@@ -996,7 +996,7 @@ class Mod(Cog):
         await ctx.reply("👍", mention_author=False)
 
     @commands.guild_only()
-    @commands.check(isadmin)
+    @commands.check(isoverride)
     @commands.command()
     async def typing(
         self,

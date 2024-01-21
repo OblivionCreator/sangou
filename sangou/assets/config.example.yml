@@ -88,5 +88,344 @@ reaction:
   # Some people get mad at this feature's existence for some reason.
   paidforprofileeffectsenable: false
 
+permission_overrides:
+  # Command overrides. These also manage the default role (admin / staff) for applicable roles.
+
+  kick:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  ban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  dban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  massban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  unban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  silentban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  msgcount:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  alert:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_bots:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_from:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_with:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_emotes:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_embeds:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  purge_reacts: # alias: reactions
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  warn:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  note: # alias: addnote
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  say: # alias: echo
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  speak: # alias: send
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  reply:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  react:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  typing:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  archives:
+    override_role:
+      # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  open:
+    override_role:
+      # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  trace:
+    override_role:
+      # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  orbitlog:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  lock:
+    override_role:
+      # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  logs:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  notes:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  clearevents:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  delevent:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 2
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  raidmode:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  timeban:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  tossed: # alias: session
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  toss: # alias: roleban
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  untoss: # alias: unroleban
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  close:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  watch:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  unwatch:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  reroll:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  snipe:
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
+  snipf: # sniped so hard they spilled coffee.
+    override_role:
+    # The role ID of the role you wish to grant access to this command. If this is not set, defaults to the default fallback.
+    default_fallback: 1
+    # 0 = Requires override role to use.
+    # 1 = Requires Staff role or override role to use.
+    # 2 = Requires Admin role or override role to use.
+
 metadata:
-  version: 4
+  version: 5
